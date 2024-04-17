@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/90ecf0149d.js" crossorigin="anonymous"></script>
+    <title>MW Digital - Web Design - Digital Presence - SMM</title>
+  </head>
+  <body>
+
+<!-- Navigation -->
+
+  <!-- Mobile Nav -->
+
+    <nav class="fixed top-0 w-full z-10 bg-white shadow-md lg:hidden">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <span class="self-center text-2xl font-light whitespace-nowrap">MW Digital</span>
+        </a>
+        <button data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text- rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2" aria-controls="navbar-hamburger" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+
+        <div class="hidden w-full py-4 flex justify-center text-center" id="navbar-hamburger">
+          <nav>
+            <ul class="space-y-4">
+              <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">Product</a></li>
+              <li><a href="/" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">Features</a></li>
+              <li><a href="/" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">Pricing</a></li>
+              <li><a href="/" aria-label="About us" title="About us" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">About us</a></li>
+              <li>
+                <button>
+                  <a href="mailto:michal@wyka.co.uk" class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary hover:bg-l-secondary hover:text-secondary focus:shadow-outline focus:outline-none" aria-label="Contact me" title="Contact me">Contact me</a>
+                </button>
+                </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Full Nav -->
+
+    <header class="fixed top-0 w-full shadow-md bg-white hidden z-10 lg:grid">
+    <div class="shadow ">
+      <div class="px-4 py-5 mx-auto md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div class="relative flex items-center justify-between">
+          <a href="/" aria-label="Company" title="Company" class="inline-flex items-center">
+            <span class="ml-2 text-3xl font-light tracking-wide text-gray-800">MW Digital</span>
+          </a>
+          <ul class="items-center hidden space-x-8 lg:flex">
+            <li><a href="#past-projects" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">Past Projects</a></li>
+            <li><a href="#web-development" aria-label="Our product" title="Our product" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">Web Development</a></li>
+            <li><a href="#social-media" aria-label="Product pricing" title="Product pricing" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">Social Media</a></li>
+            <li><a href="#about-me" aria-label="About us" title="About us" class="font-medium tracking-wide text-p-text transition-colors duration-200 hover:text-secondary">About Me</a></li>
+          </ul>
+          <ul class="flex items-center space-x-8">
+            <li>
+              <a
+                href="mailto:michal@wyka.co.uk"
+                class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-secondary hover:bg-l-secondary hover:text-secondary focus:shadow-outline focus:outline-none"
+                aria-label="Contact me"
+                title="Contact me">
+                Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+</header>
+
+<!-- Hero Content -->
+
+    <div class="relative bg-gradient-to-r from-primary to-[#3c76b2] lg:mt-[88px] mt-[72px]">
+      <div class="absolute inset-x-0 bottom-0">
+        <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mb-1 text-white" preserveAspectRatio="none">
+          <path d="M0,0 C48.8902582,6.27314026 86.2235915,9.40971039 112,9.40971039 C137.776408,9.40971039 175.109742,6.27314026 224,0 L224,12.0441132 L0,12.0441132 L0,0 Z"></path>
+        </svg>
+      </div>
+      <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
+          <h2 class="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none bg-clip-text">A simpler way to<br class="hidden md:block" />
+            manage your
+            <span class="relative inline-block px-2 bg-clip-text">
+              <div class="absolute inset-0 transform -skew-x-12 bg-highlight"></div>
+              <span class="relative text-primary">digital presence</span>
+            </span>
+          </h2>
+          <p class="mb-6 text-base text-indigo-100 md:text-lg pb-8">
+            Running a business takes up enough time as it is, but taking care of your website and social media are two things I can help you with... whatever that might look like.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Flexibility... Section -->
+
+    <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-32">
+      <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-icon-bg lg:w-20 lg:h-20">
+        <i class="fa-solid fa-handshake-simple text-3xl text-primary"></i>
+      </div>
+      <div class="flex flex-col lg:flex-row">
+        <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
+          <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-p-text sm:text-4xl sm:leading-none">
+            Flexibility, clarity, and quality<br class="hidden md:block" />
+          </h2>
+          <span class="inline-flex items-center font-normal text-s-text ">My three guiding principles when working with you</span>
+        </div>
+        <div class="lg:w-1/2">
+          <p class="text-base text-s-text">
+            No matter whether you're a small business, a startup, or a charity, having a digital presence is essential for growth. Letting someone else take care of your business' online elements can free up valuable time.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Past Projects Section -->
+    <div id="past-projects" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+
+    <div class="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5 grid justify-center mx-auto">
+      <h2 class="mb-5 font-sans text-3xl font-bold tracking-tight text-p-text sm:text-4xl sm:leading-none text-center">
+        How I've helped <br class="hidden md:block" />others
+        <span class="relative inline-block px-2">
+          <div class="absolute inset-0 transform -skew-x-12 bg-highlight"></div>
+          <span class="relative text-p-text">grow</span>
+        </span> their business
+      </h2>
+      <span class="inline-flex items-center text-center font-normal text-s-text">From working with content creators to SMEs in tourism, each project brings exciting new challenges and perspectives</span>
+    </div>
+    <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+        <div class="overflow-hidden duration-300 bg-white rounded">
+          <img data-popover-target="popover-default" src="/images/web-design.webp" class="object-cover w-full h-64" alt="" />
+          <div class="p-5">
+            <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+              <span>Web Development</span>
+            </p>
+            <a href="/digital-marketing" aria-label="Category" title="" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-secondary">Web Development</a>
+            <p class="mb-2 text-s-text">
+              Having worked with content creators, local businesses, and non-profits, I can create anything between single-page static websites and custom WordPress installations. If you have an existing site that needs a revamp or you are planning to build a new one, please don't hesitate to get in touch with me.
+            </p>
+            <a href="#pricing" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-primary hover:text-secondary">View Prices</a>
+          </div>
+        </div>
+        <div class="overflow-hidden bg-white">
+          <img src="/images/digital-marketing.webp" class="object-cover w-full h-64" alt="" />
+          <div class="p-5 ">
+            <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+              <span>Digital Marketing</span>
+            </p>
+            <a href="/digital-marketing" aria-label="Category" title="" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-secondary">Digital Marketing & Operational Support</a>
+            <p class="mb-2 text-s-text">
+              I've been supporting a range of clients in their marketing efforts and day-to-day operations. A reactive approach to new trends, underpinned by regular performance analysis, has created consistent growth across their platforms. If you need help with copywriting, SEO, or other tasks then feel free to reach out. 
+            </p>
+            <a href="mailto:michal@wyka.co.uk" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-primary hover:text-secondary">Contact me</a>
+          </div>
+        </div>
+        <div class="overflow-hidden bg-white">
+          <img src="/images/web-hosting.webp" class="object-cover w-full h-64" alt="" />
+          <div class="p-5 ">
+            <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+              <span>Hosting</span>
+            </p>
+            <a href="/digital-marketing" aria-label="Category" title="" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-secondary">Web Hosting & Maintenance</a>
+            <p class="mb-2 text-s-text">
+              I've worked with several large content creators in developing their online businesses. I've deployed scalable and cost-effective digital services that handled surges in demand for communities of over 40,000. If you have an existing site that needs to be hosted then please do contact me.
+            </p>
+            <a href="mailto:michal@wyka.co.uk" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-primary hover:text-secondary">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Web Design Steps Section -->
+
+<div id="web-development" class="px-4 lg:py-16 py-0 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-18">
+  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div>
+      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-p-text uppercase rounded-full bg-highlight text-center">
+        Web Design & Hosting
+      </p>
+    </div>
+    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-p-text sm:text-4xl md:mx-auto">
+        <span>How it all works</span>
+    </h2>
+    <p class="text-base text-s-text md:text-lg">
+      Every business is different so this is only a suggestion but it's good at keeping things on track
+    </p>
+  </div>
+  <div class="grid gap-10 lg:grid-cols-4 sm:grid-cols-2">
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 1 - Let's Chat</p>
+      </div>
+      <p class="text-s-text">
+        We'll get together (online or in-person) to talk through what you need. Once the basics are set out we can sign the contract and go through some initial designs and plans!
+      </p>
+    </div>
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 2 - Initial Work</p>
+      </div>
+      <p class="text-s-text">
+        I'll get going with the work and reach out a couple of times to make sure everything is heading in the right direction.
+      </p>
+    </div>
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 3 - Revisions</p>
+      </div>
+      <p class="text-s-text">
+        Here you'll recieve a preview of what's been done so far and we will talk through any changes necessary.
+      </p>
+    </div>
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <p class="text-2xl font-bold">Step 4 - Delivery</p>
+      </div>
+      <p class="text-s-text">
+        Once all the changes have been made and you're happy with everything, that's it! You'll be ready to direct your customers to your new site!
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Cards -->
+
+<div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div id="pricing" class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div>
+      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-s-text uppercase rounded-full bg-highlight">
+        Web Design & Hosting
+      </p>
+    </div>
+    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-p-text sm:text-4xl md:mx-auto">
+      <span class="relative inline-block">
+        <span class="relative">Web Development Pricing</span>
+      </span>
+    </h2>
+    <p class="text-base text-s-text md:text-lg">
+      Clarity is especially important with prices so here are three examples. If you're unsure of what you need then do reach out and we can chat about it - no strings attached.
+    </p>
+  </div>
+  <div class="grid max-w-md gap-10 row-gap-5 lg:max-w-screen-lg sm:row-gap-10 lg:grid-cols-3 xl:max-w-screen-lg sm:mx-auto">
+    <div class="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+      <div class="text-center">
+        <div class="text-lg font-semibold">Static</div>
+        <div class="flex items-center justify-center mt-2">
+          <div class="mr-1 text-5xl font-bold">£350</div>
+        </div>
+        <div class="mt-2 space-y-3">
+          <div class="text-s-text">1 page site</div>
+          <div class="text-s-text">£55 per additional page</div>
+          <div class="text-s-text">Hosting included</div>
+        </div>
+      </div>
+      <div>
+        <a href="mailto:michal@wyka.co.uk" class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white hover:text-secondary transition duration-200 bg-secondary rounded shadow-md hover:bg-l-secondary focus:shadow-outline focus:outline-none">
+          Contact Me
+        </a>
+        <p class="max-w-xs mt-6 text-xs text-s-text sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+          The site you're on now would be in this price-range.
+        </p>
+      </div>
+    </div>
+    <div class="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow border-deep-purple-accent-400">
+      <div class="absolute inset-x-0 top-0 flex justify-center -mt-3">
+        <div class="inline-block px-3 py-1 text-xs font-medium tracking-wider text-s-text uppercase rounded bg-highlight">
+          Most Versatile
+        </div>
+      </div>
+      <div class="text-center">
+        <div class="text-lg font-semibold">WordPress</div>
+        <div class="flex items-center justify-center mt-2">
+          <div class="mr-1 text-5xl font-bold">£750</div>
+        </div>
+        <div class="mt-2 space-y-3">
+          <div class="text-s-text">Fully custom theme</div>
+          <div class="text-s-text">Individual pages & blog</div>
+          <div class="text-s-text">4 months free hosting</div>
+        </div>
+      </div>
+      <div>
+        <a href="mailto:michal@wyka.co.uk" class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white hover:text-secondary transition duration-200 bg-secondary rounded shadow-md hover:bg-l-secondary focus:shadow-outline focus:outline-none">
+          Contact Me
+        </a>
+        <p class="max-w-xs mt-6 text-xs text-s-text sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+          WordPress lets you manage your site much easier and faster than a static site.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded shadow-sm sm:items-center hover:shadow">
+      <div class="text-center">
+        <div class="text-lg font-semibold">WordPress+</div>
+        <div class="flex items-center justify-center mt-2">
+          <div class="mr-1 text-5xl font-bold">£1,300+</div>
+        </div>
+        <div class="mt-2 space-y-3">
+          <div data-popover-target="popover-default" class="text-s-text">Custom pages to suit your business <i class="fa-solid fa-circle-info text-xs"></i></div>
+          <div class="text-s-text">SEO & Copywriting</div>
+          <div class="text-s-text">24/7 Support</div>
+        </div>
+      </div>
+      <div data-popover id="popover-default" role="tooltip" class="absolute z-10 invisible inline-block w-64 text-sm text-gray-500 transition-opacity duration-300 bg-white border border-gray-200 rounded-lg shadow-sm opacity-0 dark:text-gray-400 dark:border-gray-600 dark:bg-gray-800">
+        <div class="px-3 py-2 bg-gray-100 border-b border-gray-200 rounded-t-lg dark:border-gray-600 dark:bg-gray-700">
+            <h3 class="font-semibold text-gray-900 dark:text-white">What are custom page types?</h3>
+        </div>
+        <div class="px-3 py-2">
+            <p>By default WordPress only allows you to make normal pages and a blog. With this option you can have endless types of pages or blogs (e.g. a database of resources for your clients alongside a blog)!</p>
+        </div>
+        <div data-popper-arrow></div>
+    </div>
+      <div>
+        <a href="mailto:michal@wyka.co.uk" class="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white hover:text-secondary transition duration-200 bg-secondary rounded shadow-md hover:bg-l-secondary focus:shadow-outline focus:outline-none">
+          Contact Me
+        </a>
+        <p class="max-w-xs mt-6 text-xs text-s-text sm:text-sm sm:text-center sm:max-w-sm sm:mx-auto">
+          There is a + because these projects can vary in how complicated they are.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Digital Presence Steps Section -->
+
+<div id="social-media" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
+  <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div>
+      <p class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-p-text uppercase rounded-full bg-highlight">
+        Digital Presence
+      </p>
+    </div>
+    <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-p-text sm:text-4xl md:mx-auto">
+      How managing your socials works
+    </span>
+    </h2>
+    <p class="text-base text-s-text md:text-lg">
+      It's only a suggestion on what might work but most projects play out this way
+    </p>
+  </div>
+  <div class="grid max-w-screen-lg gap-8 row-gap-10 mx-auto lg:grid-cols-2">
+    <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
+      <div class="mr-4">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-icon-bg text-primary">
+          <i class="fa-solid fa-phone text-xl"></i>
+        </div>
+      </div>
+      <div>
+        <h6 class="mb-3 text-xl font-bold leading-5">Step 1 - Let's Chat</h6>
+        <p class="mb-3 text-sm text-s-text">
+          We talk through what your business does online and what you would like help with. We then agree on a time frame and iron out the details of a contract.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
+      <div class="mr-4">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-icon-bg text-primary">
+          <i class="fa-solid fa-gears text-xl"></i>
+        </div>
+      </div>
+      <div>
+        <h6 class="mb-3 text-xl font-bold leading-5">Step 2 - Access</h6>
+        <p class="mb-3 text-sm text-s-text">
+          Just before work is set to begin we'll set up access to existing accounts or create new ones. Then on an agreed date, I'll start working on your socials!
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
+      <div class="mr-4">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-icon-bg text-primary">
+          <i class="fa-solid fa-paperclip text-xl"></i>
+        </div>
+      </div>
+      <div>
+        <h6 class="mb-3 text-xl font-bold leading-5">Step 3 - Reports</h6>
+        <p class="mb-3 text-sm text-s-text">
+          Once a month I'll prepare a report on how things are going and go through it with you. We then talk through any plans you have for the next few months so we're in-sync.
+        </p>
+      </div>
+    </div>
+    <div class="flex flex-col max-w-md sm:mx-auto sm:flex-row">
+      <div class="mr-4">
+        <div class="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-icon-bg text-primary">
+          <i class="fa-solid fa-comments text-xl"></i>
+        </div>
+      </div>
+      <div>
+        <h6 class="mb-3 text-xl font-bold leading-5">Step 4 - Feedback</h6>
+        <p class="mb-3 text-sm text-s-text">
+          That's it! Of course this process isn't set in stone so it'll change to suit your needs, but once we we get going it'll repeat until we come to the end of our contract. At that point we'll go through an end-of-contract report and agree on the next steps.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container grid justify-center text-center py-12 mx-auto lg:py-20 max-w-xl text-p-text">
+  <span class="row">
+    <h2 class="col font-sans text-3xl font-bold tracking-tight text-lapsi-300 sm:text-4xl sm:leading-none pb-6">
+      Social Media<br>Management 
+      <span class="relative inline-block px-2">
+        <div class="absolute inset-0 transform -skew-x-12 bg-highlight"></div>
+        <span class="relative text-p-text">Pricing</span>
+      </span>
+    </h2>
+  </span>
+  <span class="row">
+  <p class="row text-base text-primary md:text-lg">
+    Pricing these kinds of projects is more complicated so I do ask that you reach out to me to talk about it. I know it's time-consuming but I'll keep it brief :)
+  </p>
+  </span>
+  <span class="row py-6">
+  <button href="mailto:michal@wyka.co.uk" class="row w-5/12 h-12 px-6 mt-6 font-medium tracking-wide text-white hover:text-secondary transition duration-200 bg-secondary rounded shadow-md hover:bg-l-secondary focus:shadow-outline focus:outline-none">
+    <a href="mailto:michal@wyka.co.uk">
+      Contact Me
+    </a>
+  </button>
+  </span>
+</div>
+
+<!-- About Me Section -->
+
+<div id="about-me" class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-p-text">
+  <div class="grid gap-10 lg:grid-cols-2">
+    <div class="lg:pr-10">
+      <h5 class="mb-4 text-4xl font-extrabold leading-none">
+        About me
+      </h5>
+      <hr class="mb-5 border-gray-300" />
+      <div class="flex items-center space-x-4">
+        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+
+        </a>
+        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+
+        </a>
+        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+
+        </a>
+        <a href="/" class="text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400">
+
+        </a>
+      </div>
+    </div>
+    <div class="text-s-text">
+      <p class="mb-6">
+        I've been making websites and managing social media accounts for about 5 years. I started because a passion project of mine needed a website and I thought I should give it a go - turns out it was a lot of fun.
+      </p>
+      <p>
+        Since then I've picked up projects here and there, and with each one, I set myself more ambitious goals. Having learned this way I've picked up quite a few skills but I'm still learning new ones because you're never really done.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<div class="relative mt-16 bg-gradient-to-r from-primary to-[#3c76b2] text-gray-100">
+  <div class="px-4 pt-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+    <div class="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+      <div class="md:max-w-md lg:col-span-2">
+        <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
+          <span class="text-xl font-bold tracking-wide text-gray-100 uppercase">MW Digital</span>
+        </a>
+        <div class="mt-4 lg:max-w-sm">
+          <p class="text-sm text-deep-purple-50">
+            Local businesses are so important to the communities they work in, but keeping on top of everything is sometimes just too much. Having someone else do the "leg work" can free up your precious time.
+          </p>
+          <p class="mt-4 text-sm text-deep-purple-50">
+            If you're interested in meeting in person, I'm located in London and Exeter (Devon).
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+        <!-- <div>
+          <p class="font-semibold tracking-wide text-teal-accent-400">
+            Category
+          </p>
+          <ul class="mt-2 space-y-2">
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">News</a>
+            </li>
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">World</a>
+            </li>
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Games</a>
+            </li>
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">References</a>
+            </li>
+          </ul>
+        </div> -->
+
+        <!-- <div>
+          <p class="font-semibold tracking-wide text-teal-accent-400">
+            Business
+          </p>
+          <ul class="mt-2 space-y-2">
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Infopreneur</a>
+            </li>
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Personal</a>
+            </li>
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Wiki</a>
+            </li>
+            <li>
+              <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Forum</a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+    </div>
+    <div class="flex flex-col justify-between pt-5 pb-10 border-t border-gray-100 sm:flex-row">
+      <p class="text-sm text-gray-100">
+        © Copyright 2024 Michal Wyka
+      </p>
+      <div class="flex items-center mt-4 space-x-4 sm:mt-0">
+        <a href="mailto:michal@wyka.co.uk" class="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400">
+          <i class="fa-solid fa-envelope text-xl"></i>
+        </a>
+        <a href="/" class="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400">
+
+        </a>
+        <a href="/" class="transition-colors duration-300 text-deep-purple-100 hover:text-teal-accent-400">
+
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  </body>
+</html>
